@@ -1,0 +1,3 @@
+Trigger compact demo CTA sitewide workflow.
+Date: 2026-05-17
+Scope: product pages demo CTA normalization.
