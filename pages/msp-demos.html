@@ -20,7 +20,7 @@
 <section class="dark-band s-pad" id="agents-method"><div class="split"><div><div class="s-label"><div class="s-label-line"></div><div class="s-label-text">Comment lire les démos</div></div><div class="s-title">Ce que les agents<br><em>font vraiment.</em></div><p class="s-sub">Les meilleures pages ne montrent pas seulement "avant / après". Elles montrent l'intervention agentique : comment l'agent lit le billet, détecte les signaux faibles, impose les garde-fous, aide le technicien à choisir l'action défendable et génère les livrables.</p></div><div class="terminal"><div class="t-bar"><div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div><div class="t-bar-title">MSP INTELLIGENCE IT · AGENT OPERATING MODEL</div></div><div class="t-line t-gray">// RÔLE DES AGENTS</div><div class="t-line"><span class="t-gold">01.</span> <span class="t-white">Lire le billet + contexte client</span></div><div class="t-line"><span class="t-gold">02.</span> <span class="t-white">Identifier ce qui est prouvé / probable / à valider</span></div><div class="t-line"><span class="t-gold">03.</span> <span class="t-white">Proposer une action minimale défendable</span></div><div class="t-line"><span class="t-gold">04.</span> <span class="t-white">Produire note CW, discussion client et rapport coordo</span></div><div class="t-line t-green" style="margin-top:12px">✓ HUMAIN = DÉCISION FINALE · AGENT = STRUCTURE ET PREUVE</div></div></div></section>
 <section class="s-pad" id="cas"><div class="wrap"><div class="s-label"><div class="s-label-line"></div><div class="s-label-text">Cas terrain anonymisés</div></div><div class="s-title"><strong>22 cas.</strong><br><em>Tous exposés.</em></div><p class="s-sub">Chaque page de cas montre une intervention réelle : nom du client remplacé par <em>client inc.</em>, numéro de billet au format <em>#0001234</em>, serveurs nommés par rôle (DC-01, FS-01). Aucun renseignement opérationnel sensible n'est divulgué.</p></div>
 <div class="summary-grid">
-<div class="summary"><div class="summary-n">22</div><div class="summary-l">Cas actifs publiés</div></div>
+<div class="summary"><div class="summary-n">0</div><div class="summary-l">Cas actifs</div></div>
 <div class="summary"><div class="summary-n">0</div><div class="summary-l">Doublon affiché</div></div>
 <div class="summary"><div class="summary-n">100%</div><div class="summary-l">Anonymisation validée</div></div>
 <div class="summary"><div class="summary-n">1</div><div class="summary-l">Index MSP central</div></div>
@@ -28,87 +28,6 @@
 <div class="card-grid">
 
 <div class="pro-card"><div class="card-top"><div class="card-n">CAS</div><div class="badge">À venir</div></div><div class="card-title">Pages de cas en réimportation</div><div class="card-sub">Base MSP nettoyée</div><div class="card-desc">Les anciennes pages de cas ont été retirées pour repartir sur une source propre. Les nouvelles pages anonymisées seront réajoutées ici après import.</div><span class="card-link">En attente →</span></div>
-
-
-<a class="pro-card" href="cases/eaia_case_adws_sysvol_single_dc_launch.html">
-<div class="card-top"><div class="card-n">CAS 13</div><div class="badge">AD</div></div>
-<div class="card-title">ADWS / SYSVOL — mono-DC</div>
-<div class="card-sub">Active Directory · ADWS · SYSVOL · DC unique</div>
-<div class="card-desc">Service ADWS défaillant sur un environnement mono-DC. SYSVOL non répliqué, GPO inaccessibles. Diagnostic, remise en service et plan de résilience pour infrastructure sans DC secondaire.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_cpu_server_premium.html">
-<div class="card-top"><div class="card-n">CAS 14</div><div class="badge">Perf</div></div>
-<div class="card-title">CPU serveur — charge anormale</div>
-<div class="card-sub">Performance · CPU · Processus · Monitoring</div>
-<div class="card-desc">Serveur de production avec CPU en saturation persistante. Identification du ou des processus responsables, corrélation avec les événements système et recommandations de remédiation.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_document_recovery_zero_byte.html">
-<div class="card-top"><div class="card-n">CAS 15</div><div class="badge">Recovery</div></div>
-<div class="card-title">Récupération fichiers zero-byte</div>
-<div class="card-sub">Récupération · NTFS · VSS · Fichiers corrompus</div>
-<div class="card-desc">Fichiers utilisateur corrompus à zéro octet après incident. Stratégie de récupération via clichés instantanés VSS, analyse de l'origine de la corruption et prévention des récidives.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_entra_connect_sync_object_restore.html">
-<div class="card-top"><div class="card-n">CAS 16</div><div class="badge">Azure</div></div>
-<div class="card-title">Entra Connect — sync et restauration d'objet</div>
-<div class="card-sub">Entra Connect · Azure AD · Synchronisation · Objet supprimé</div>
-<div class="card-desc">Objet AD supprimé accidentellement causant une désynchronisation Entra Connect. Procédure de restauration depuis la corbeille AD, resynchronisation forcée et validation de l'état cloud.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_ntfs_datto_backup_transient.html">
-<div class="card-top"><div class="card-n">CAS 17</div><div class="badge">Datto</div></div>
-<div class="card-title">NTFS + Datto — erreurs backup transientes</div>
-<div class="card-sub">NTFS · Datto · Backup · Erreurs transientes</div>
-<div class="card-desc">Sauvegardes Datto en erreur intermittente liées à des problèmes NTFS. Identification des secteurs défaillants, vérification de l'intégrité du volume et stabilisation du pipeline de sauvegarde.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_ntfs_veeam_bdr.html">
-<div class="card-top"><div class="card-n">CAS 18</div><div class="badge">Veeam</div></div>
-<div class="card-title">NTFS + Veeam BDR — intégrité volume</div>
-<div class="card-sub">NTFS · Veeam · BDR · Intégrité disque</div>
-<div class="card-desc">Veeam BDR signale des erreurs liées à l'intégrité NTFS du volume source. Analyse chkdsk, évaluation du risque de perte de données et décision de basculement vers la réplique.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_veeam_management_agent.html">
-<div class="card-top"><div class="card-n">CAS 19</div><div class="badge">Veeam</div></div>
-<div class="card-title">Agent de gestion Veeam — défaillance</div>
-<div class="card-sub">Veeam · Management Agent · Service · Connectivité</div>
-<div class="card-desc">L'agent de gestion Veeam ne répond plus sur un serveur protégé. Diagnostic de la connectivité, réinstallation de l'agent, validation des jobs et vérification de la chaîne de backup.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_vmware_legacy_esxi_storage.html">
-<div class="card-top"><div class="card-n">CAS 20</div><div class="badge">VMware</div></div>
-<div class="card-title">VMware ESXi legacy — stockage dégradé</div>
-<div class="card-sub">VMware · ESXi · Datastore · Stockage legacy</div>
-<div class="card-desc">Datastore ESXi en état dégradé sur infrastructure legacy. Analyse de l'espace, des alarmes vSphere et des VMs à risque. Plan de remédiation avec contraintes de version et migration des données critiques.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_sftp_pending_reboot.html">
-<div class="card-top"><div class="card-n">CAS 21</div><div class="badge">SFTP</div></div>
-<div class="card-title">SFTP + pending reboot — service critique</div>
-<div class="card-sub">SFTP · Windows Update · Service critique · GO/NO-GO</div>
-<div class="card-desc">Reboot requis sur serveur hébergeant un service SFTP actif. Analyse des connexions en cours, fenêtre de maintenance, GO/NO-GO avec client et validation de la reprise du service post-reboot.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_windows_update_legacy_sbs2011.html">
-<div class="card-top"><div class="card-n">CAS 22</div><div class="badge">Legacy</div></div>
-<div class="card-title">Windows Update — SBS 2011 hors support</div>
-<div class="card-sub">SBS 2011 · Windows Update · Legacy · Migration</div>
-<div class="card-desc">Gestion des mises à jour sur Small Business Server 2011 en fin de vie. Analyse des risques sur infrastructure hors support, application sélective des correctifs critiques et recommandations de migration.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
 
 </div></section>
 <section class="quote-section"><div class="quote-mark">"</div><p class="quote-text">Un billet bien traité ne devrait pas dormir dans ConnectWise. Il peut devenir <strong>un actif de vente, une preuve de méthode et un standard d'équipe.</strong></p><div class="quote-attr">MSP Intelligence IT · EAIA</div></section>
