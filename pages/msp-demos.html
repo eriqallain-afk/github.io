@@ -20,108 +20,14 @@
 <section class="dark-band s-pad" id="agents-method"><div class="split"><div><div class="s-label"><div class="s-label-line"></div><div class="s-label-text">Comment lire les démos</div></div><div class="s-title">Ce que les agents<br><em>font vraiment.</em></div><p class="s-sub">Les meilleures pages ne montrent pas seulement "avant / après". Elles montrent l'intervention agentique : comment l'agent lit le billet, détecte les signaux faibles, impose les garde-fous, aide le technicien à choisir l'action défendable et génère les livrables.</p></div><div class="terminal"><div class="t-bar"><div class="t-dot"></div><div class="t-dot"></div><div class="t-dot"></div><div class="t-bar-title">MSP INTELLIGENCE IT · AGENT OPERATING MODEL</div></div><div class="t-line t-gray">// RÔLE DES AGENTS</div><div class="t-line"><span class="t-gold">01.</span> <span class="t-white">Lire le billet + contexte client</span></div><div class="t-line"><span class="t-gold">02.</span> <span class="t-white">Identifier ce qui est prouvé / probable / à valider</span></div><div class="t-line"><span class="t-gold">03.</span> <span class="t-white">Proposer une action minimale défendable</span></div><div class="t-line"><span class="t-gold">04.</span> <span class="t-white">Produire note CW, discussion client et rapport coordo</span></div><div class="t-line t-green" style="margin-top:12px">✓ HUMAIN = DÉCISION FINALE · AGENT = STRUCTURE ET PREUVE</div></div></div></section>
 <section class="s-pad" id="cas"><div class="wrap"><div class="s-label"><div class="s-label-line"></div><div class="s-label-text">Cas terrain anonymisés</div></div><div class="s-title"><strong>12 cas.</strong><br><em>Tous exposés.</em></div><p class="s-sub">Chaque page de cas montre une intervention réelle : nom du client remplacé par <em>client inc.</em>, numéro de billet au format <em>#0001234</em>, serveurs nommés par rôle (DC-01, FS-01). Aucun renseignement opérationnel sensible n'est divulgué.</p></div>
 <div class="summary-grid">
-<div class="summary"><div class="summary-n">12</div><div class="summary-l">Cas actifs publiés</div></div>
+<div class="summary"><div class="summary-n">0</div><div class="summary-l">Cas actifs</div></div>
 <div class="summary"><div class="summary-n">0</div><div class="summary-l">Doublon affiché</div></div>
 <div class="summary"><div class="summary-n">100%</div><div class="summary-l">Anonymisation validée</div></div>
 <div class="summary"><div class="summary-n">1</div><div class="summary-l">Index MSP central</div></div>
 </div>
 <div class="card-grid">
 
-<a class="pro-card" href="cases/eaia_case_p1_hyperv_megaraid_public.html">
-<div class="card-top"><div class="card-n">CAS 01</div><div class="badge badge-red">P1</div></div>
-<div class="card-title">P1 Hyper-V + RAID critique</div>
-<div class="card-sub">Hyper-V · RAID · BackupDR · ConnectWise</div>
-<div class="card-desc">VM de production qui disparaît pendant les heures ouvrables. Contrôleur RAID dégradé, hyperviseur instable. Triage P1 complet : garde-fous, décision reboot, postcheck et note ConnectWise.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_site_down_hyperv.html">
-<div class="card-top"><div class="card-n">CAS 02</div><div class="badge badge-red">P1</div></div>
-<div class="card-title">Site down — rétablissement Hyper-V</div>
-<div class="card-sub">Hyper-V · Active Directory · RAID</div>
-<div class="card-desc">Site client entièrement hors ligne. Séquence de rétablissement complète sur infrastructure Hyper-V : AD, DNS, RAID et services dépendants. Chronologie intervention avec livrables.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_edr_stabilite_serveur_fichiers_anonymise.html">
-<div class="card-top"><div class="card-n">CAS 03</div><div class="badge">EDR</div></div>
-<div class="card-title">Stabilité EDR — serveur de fichiers</div>
-<div class="card-sub">EDR · VSS · CAPI2 · FS-01</div>
-<div class="card-desc">Agent EDR cause des instabilités sur FS-01 : erreurs VSS et CAPI2 répétées. Corrélation événements, exclusions ciblées et validation de l'impact sur les sauvegardes.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_casepage_incident_serveur_critique_anonymise.html">
-<div class="card-top"><div class="card-n">CAS 04</div><div class="badge">SOC</div></div>
-<div class="card-title">Incident critique — corrélation ≠ causalité</div>
-<div class="card-sub">EDR · SOC · Analyse forensique</div>
-<div class="card-desc">EDR remonte une alerte critique sur serveur de production. Analyse complète : l'agent démontre que corrélation ne signifie pas causalité. Livrable SOC et décision escalade vs fermeture.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_veeam_backup_vss_sqlwriter.html">
-<div class="card-top"><div class="card-n">CAS 05</div><div class="badge">Veeam</div></div>
-<div class="card-title">Veeam VSS / SQLWriter — DC+SQL</div>
-<div class="card-sub">Veeam · VSS · SQLWriter · SQL Server</div>
-<div class="card-desc">Sauvegardes Veeam en échec sur serveur DC+SQL. Diagnostic complet du pipeline VSS/SQLWriter, réparation du writer défaillant et validation du backup application-aware.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_veeam_repository_plein.html">
-<div class="card-top"><div class="card-n">CAS 06</div><div class="badge">Veeam</div></div>
-<div class="card-title">Veeam repository plein</div>
-<div class="card-sub">Veeam · Stockage · Backup · Rétention</div>
-<div class="card-desc">Repository Veeam saturé — plus aucune sauvegarde ne passe. Analyse de la rétention, identification des jobs problématiques et plan de remédiation avec calcul d'espace libéré.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_windows_update_dc_sql.html">
-<div class="card-top"><div class="card-n">CAS 07</div><div class="badge">Update</div></div>
-<div class="card-title">Windows Update — DC mixte + SQL</div>
-<div class="card-sub">Windows Server · Active Directory · SQL Server</div>
-<div class="card-desc">Gestion des mises à jour Windows sur un contrôleur de domaine hébergeant aussi SQL Server. Analyse des risques, fenêtre de maintenance, GO/NO-GO et vérifications post-reboot.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_pending_reboot_dc.html">
-<div class="card-top"><div class="card-n">CAS 08</div><div class="badge">DC</div></div>
-<div class="card-title">Pending reboot — contrôleur de domaine</div>
-<div class="card-sub">Windows Update · DC-01 · GO/NO-GO</div>
-<div class="card-desc">Reboot requis sur DC-01 après mises à jour Windows. Checklist GO/NO-GO complète : vérification de la réplication AD, transfert des rôles FSMO, backup validé et coordination client.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_ad_replication_sysvol_rodc.html">
-<div class="card-top"><div class="card-n">CAS 09</div><div class="badge">AD</div></div>
-<div class="card-title">Réplication AD / SYSVOL — RODC</div>
-<div class="card-sub">Active Directory · RODC · SYSVOL · DFS-R</div>
-<div class="card-desc">Réplication AD cassée sur site distant avec RODC. SYSVOL désynchronisé, GPO non distribuées. Diagnostic complet et procédure de resynchronisation DFS-R sur contrôleur en lecture seule.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_msp_lancement_anonymise.html">
-<div class="card-top"><div class="card-n">CAS 10</div><div class="badge">NOC</div></div>
-<div class="card-title">Multi-serveurs hors ligne — Auvik / ESXi / WatchGuard</div>
-<div class="card-sub">NOC · Auvik · VMware ESXi · WatchGuard</div>
-<div class="card-desc">Plusieurs serveurs détectés hors ligne simultanément via Auvik. Infrastructure mixte ESXi / physique + pare-feu WatchGuard. Corrélation des alertes, triage multi-niveau et plan de rétablissement.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/eaia_case_idrac_perc_warning.html">
-<div class="card-top"><div class="card-n">CAS 11</div><div class="badge">Dell</div></div>
-<div class="card-title">Alerte iDRAC9 / PERC — serveur physique</div>
-<div class="card-sub">Dell · iDRAC9 · PERC · RAID matériel</div>
-<div class="card-desc">iDRAC9 remonte une alerte sur le contrôleur PERC. Lecture des logs BMC, évaluation de la dégradation RAID, décision de remplacement et procédure de hot-swap avec surveillance.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
-
-<a class="pro-card" href="cases/msp-cas-dhcp-anonymise-lancement.html">
-<div class="card-top"><div class="card-n">CAS 12</div><div class="badge">Réseau</div></div>
-<div class="card-title">DHCP saturé — pool à court de baux</div>
-<div class="card-sub">Réseau · DHCP · Infrastructure · DNS</div>
-<div class="card-desc">Pool DHCP épuisé — clients sans adresse IP, services réseau impactés. Identification des baux périmés, extension du scope, nettoyage du pool et validation de la redondance DHCP.</div>
-<span class="card-link">Lire le cas →</span>
-</a>
+<div class="pro-card"><div class="card-top"><div class="card-n">CAS</div><div class="badge">À venir</div></div><div class="card-title">Pages de cas en réimportation</div><div class="card-sub">Base MSP nettoyée</div><div class="card-desc">Les anciennes pages de cas ont été retirées pour repartir sur une source propre. Les nouvelles pages anonymisées seront réajoutées ici après import.</div><span class="card-link">En attente →</span></div>
 
 </div></section>
 <section class="quote-section"><div class="quote-mark">"</div><p class="quote-text">Un billet bien traité ne devrait pas dormir dans ConnectWise. Il peut devenir <strong>un actif de vente, une preuve de méthode et un standard d'équipe.</strong></p><div class="quote-attr">MSP Intelligence IT · EAIA</div></section>
