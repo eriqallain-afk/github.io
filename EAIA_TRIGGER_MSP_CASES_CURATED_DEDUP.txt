@@ -1,6 +1,0 @@
-Trigger curated MSP demos rebuild.
-Expected result:
-- fewer visible duplicate case families
-- distinct descriptions per intervention family
-- Veeam / backup / pending reboot separated only when operationally distinct
-- no repetitive generated descriptions
