@@ -1,7 +1,7 @@
 # KIT DE LANCEMENT — MSP Intelligence IT
 ## EA|IA · Juin 2026
 
-> **Contact de lancement :** eallain@passport.com  
+> **Contact de lancement :** ericallain@passport.com  
 > **Produit :** MSP Intelligence IT — système opérationnel intelligent pour MSP francophones  
 > **Offre pilote :** 3 MSP fondateurs · rabais de lancement · places limitées
 
@@ -106,7 +106,7 @@
 - [ ] Préparer le compte X/Twitter
 - [ ] Préparer les images : `FACEBOOK-Bandeau.png`, `FACEBOOK-Bandeau-1.png`, `og-image-1280x480.png`
 - [ ] Rédiger la liste de 20 MSP cibles pour l'email de prospection directe
-- [ ] Valider l'adresse `eallain@passport.com` — test de réception
+- [ ] Valider l'adresse `ericallain@passport.com` — test de réception
 - [ ] Vérifier que le lien de démo (réponse sous 24h) est opérationnel
 
 ---
@@ -154,7 +154,7 @@
 | Lun 26 | Créer page Facebook · configurer profil LinkedIn | Interne |
 | Mar 27 | Préparer toutes les images aux bons formats | Interne |
 | Mer 28 | Rédiger liste de prospection (20 MSP cibles) | Interne |
-| Jeu 29 | Test réception email eallain@passport.com | Interne |
+| Jeu 29 | Test réception email ericallain@passport.com | Interne |
 | Ven 30 | Planifier les posts dans Buffer / Meta Business Suite | Interne |
 | Sam 31 | Révision finale de tous les textes · GO/NO-GO | Interne |
 
@@ -228,7 +228,7 @@ Compatible ConnectWise · Hudu · M365 · Azure · Veeam · Fortinet
 
 Les premiers MSP à nous contacter bénéficient du tarif fondateur.
 
-📧 eallain@passport.com
+📧 ericallain@passport.com
 Objet : « Pilote MSP Intelligence IT »
 Réponse sous 24 h · Démo 30 min incluse
 
@@ -257,7 +257,7 @@ Une plateforme bâtie par quelqu'un qui a passé 25 ans dans les vrais MSP. Sur 
 
 Dès 249 $/mois · 3 partenaires fondateurs recherchés.
 
-👉 eallain@passport.com
+👉 ericallain@passport.com
 
 #MSP #IA #Francophone #EAIA #SupportIT
 
@@ -284,7 +284,7 @@ Le MSP devient le conseiller de référence en conformité
 Ces deux agents font partie de MSP Intelligence IT — 15 agents terrain pour MSP francophones.
 
 3 pilotes fondateurs. 2 places restantes.
-📧 eallain@passport.com
+📧 ericallain@passport.com
 
 #MSP #Conformité #Loi25 #EAIA #AgentsIA #Québec
 
@@ -317,7 +317,7 @@ Ce n'est pas un chatbot générique adapté à l'IT. C'est un système opératio
 
 𝗔𝘂𝗷𝗼𝘂𝗿𝗱'𝗵𝘂𝗶 : 3 MSP fondateurs recherchés avec rabais de lancement.
 
-📩 eallain@passport.com
+📩 ericallain@passport.com
 Objet : Pilote MSP Intelligence IT
 
 Starter à 249 $/mois · Réponse sous 24 h · Démo 30 min incluse
@@ -347,7 +347,7 @@ Et le client paie pour ça.
 
 Dès 249 $/mois. ROI positif dès le premier client de conformité.
 
-📩 eallain@passport.com
+📩 ericallain@passport.com
 
 #MSP #Conformité #Loi25 #PCIDSS #CyberAssurance #EAIA #Québec
 
@@ -364,7 +364,7 @@ Dès 249 $/mois. ROI positif dès le premier client de conformité.
 120 runbooks. 12 h → 120 min par onboarding. Dès 249 $/mois.
 
 3 MSP pilotes · rabais fondateur.
-📧 eallain@passport.com
+📧 ericallain@passport.com
 
 #MSP #IA #ITManagé #Francophone
 
@@ -435,7 +435,7 @@ Rabais de lancement : implantation + personnalisation + accompagnement inclus.
 
 Dès 249 $/mois · 4 versions · Réponse sous 24 h
 
-📧 eallain@passport.com
+📧 ericallain@passport.com
 Objet : Pilote MSP Intelligence IT
 
 #MSP #IA #Québec #Francophone #ConnectWise #EAIA
@@ -481,7 +481,7 @@ Système opérationnel IA pour MSP francophones. 15 agents terrain · 120 runboo
 **Bouton d'action de la page**
 ```
 Type    : Nous contacter / Envoyer un courriel
-Lien    : mailto:eallain@passport.com?subject=Pilote MSP Intelligence IT
+Lien    : mailto:ericallain@passport.com?subject=Pilote MSP Intelligence IT
 Texte   : Réserver une démo
 ```
 
@@ -499,7 +499,7 @@ Onboarding client : 12 h → 120 min. Conformité facturée : jusqu'à
 Développé par 25 ans d'expérience réelle en administration système.
 Pas une IA générique — un système opérationnel de terrain.
 
-📧 eallain@passport.com
+📧 ericallain@passport.com
 ```
 
 **Site web**
@@ -541,7 +541,7 @@ Vous seriez disponible pour un appel de 30 minutes cette semaine ?
 Cordialement,
 [Votre nom]
 EA|IA — MSP Intelligence IT
-eallain@passport.com
+ericallain@passport.com
 ```
 
 ---
@@ -568,7 +568,7 @@ du sens pour votre équipe.
 
 Si non, pas de problème — je préfère le savoir maintenant.
 
-eallain@passport.com
+ericallain@passport.com
 ```
 
 ---
@@ -596,7 +596,7 @@ L'offre pilote comprend :
 
 Cette offre se ferme le 20 juin.
 
-Répondez à ce courriel ou écrivez à eallain@passport.com
+Répondez à ce courriel ou écrivez à ericallain@passport.com
 pour qu'on parle 30 minutes.
 
 [Votre nom]
@@ -613,7 +613,7 @@ pour qu'on parle 30 minutes.
 - [ ] Photo de couverture uploadée (FACEBOOK-Bandeau.png)
 - [ ] Profil LinkedIn EA|IA à jour
 - [ ] Compte X/Twitter actif et bio à jour
-- [ ] Email eallain@passport.com testé en réception et envoi
+- [ ] Email ericallain@passport.com testé en réception et envoi
 - [ ] Lien démo fonctionnel (réponse sous 24h possible)
 
 **Contenu**
@@ -699,4 +699,4 @@ pour qu'on parle 30 minutes.
 ---
 
 *Kit de lancement — MSP Intelligence IT · EA|IA · Mai 2026*  
-*eallain@passport.com*
+*ericallain@passport.com*
