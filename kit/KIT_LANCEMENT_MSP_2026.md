@@ -26,7 +26,7 @@
 
 ### Le produit
 **MSP Intelligence IT** est un système opérationnel d'agents IA spécialisés pour les MSP francophones.  
-15 agents terrain · 120 runbooks · 90 templates · 26 playbooks · 8 modules
+23 agents terrain · 120 runbooks · 90 templates · 26 playbooks · 8 modules
 
 ### La cible
 - Directeurs et propriétaires de MSP francophones (Québec, Canada, France, Belgique)
@@ -63,7 +63,7 @@
 
 ### Les 3 différenciateurs
 1. **Construit par un praticien** — 25 ans d'administration système réelle, pas de consulting théorique
-2. **Agents terrain seulement** — 15 agents spécialisés avec rôles, limites et livrables définis
+2. **Agents terrain seulement** — 23 agents spécialisés avec rôles, limites et livrables définis
 3. **Francophone par conception** — adapté au marché québécois et francophone dès le départ
 
 ### Preuve terrain (à utiliser dans tous les posts)
@@ -80,7 +80,7 @@
 |------|--------|----------|
 | **#1** | Chaque billet. Guidé. Traçable. Facturable. | Signature universelle — hero, CTA, email |
 | **#2** | De 12 heures à 120 minutes. À chaque onboarding. | Posts chiffres — impact immédiat |
-| **#3** | 25 ans de terrain. 15 agents. Une seule plateforme. | LinkedIn — autorité |
+| **#3** | 25 ans de terrain. 23 agents. Une seule plateforme. | LinkedIn — autorité |
 | **#4** | Vos techniciens sont compétents. La méthode manquait. | Storytelling — ouverture de post |
 
 ### Slogans secondaires
@@ -88,7 +88,7 @@
 | Rang | Slogan | Contexte |
 |------|--------|----------|
 | #5 | L'IA qui connaît le vrai MSP — pas celui des présentations. | Différenciation |
-| #6 | Votre technicien le plus compétent, multiplié par 15. | Facebook · visuel fort |
+| #6 | Votre technicien le plus compétent, multiplié par 23. | Facebook · visuel fort |
 | #7 | 120 runbooks. Zéro improvisation. | Arsenal · modules |
 | #8 | Transformez la conformité en 500–2 000 $ par client par an. | ROI · ComplianceMaster |
 | #9 | Le billet entre. Le livrable sort. En une fraction du temps. | CTA bas de page |
@@ -211,7 +211,7 @@
 
 Après des mois de développement terrain, le système opérationnel intelligent pour MSP francophones est disponible.
 
-✦ 15 agents IA spécialisés
+✦ 23 agents IA spécialisés
 ✦ 120 runbooks validés terrain
 ✦ 90 templates prêts à déployer
 ✦ 8 modules — un à la fois, à votre rythme
@@ -281,7 +281,7 @@ Loi 25 · PCI-DSS · HIPAA · Cyber-assurance
 500 à 2 000 $ de revenus additionnels par client par an
 Le MSP devient le conseiller de référence en conformité
 
-Ces deux agents font partie de MSP Intelligence IT — 15 agents terrain pour MSP francophones.
+Ces deux agents font partie de MSP Intelligence IT — 23 agents terrain pour MSP francophones.
 
 3 pilotes fondateurs. 2 places restantes.
 📧 ericallain@passport.com
@@ -305,7 +305,7 @@ MSP Intelligence IT règle ça.
 
 𝗖𝗲 𝗾𝘂𝗲 𝗰𝗮 𝗳𝗮𝗶𝘁 𝗰𝗼𝗻𝗰𝗿è𝘁𝗲𝗺𝗲𝗻𝘁 :
 
-→ 15 agents IA terrain (support N1-N3, NOC, infrastructure, sécurité, conformité, documentation)
+→ 23 agents IA terrain (support N1-N3, NOC, infrastructure, sécurité, conformité, documentation)
 → 120 runbooks validés terrain — infrastructure, maintenance, sécurité, réseau, scripting
 → Onboarding client : 12 h → 120 min (IT-OnOffBoarder)
 → Revenus conformité : 500–2 000 $/client/an (IT-ComplianceMaster · Loi 25 · PCI-DSS · HIPAA)
@@ -335,7 +335,7 @@ Un MSP peut facturer 500 à 2 000 $ par client par an en services de conformité
 
 La plupart ne le font pas — parce qu'ils n'ont pas la structure pour le livrer.
 
-IT-ComplianceMaster, l'un des 15 agents de MSP Intelligence IT, change ça.
+IT-ComplianceMaster, l'un des 23 agents de MSP Intelligence IT, change ça.
 
 → Audit Loi 25 (Québec) structuré et documenté
 → Évaluation PCI-DSS et questionnaire cyber-assurance
@@ -360,7 +360,7 @@ Dès 249 $/mois. ROI positif dès le premier client de conformité.
 
 🚀 LANCEMENT — MSP Intelligence IT · EA|IA
 
-15 agents IA terrain pour MSP francophones.
+23 agents IA terrain pour MSP francophones.
 120 runbooks. 12 h → 120 min par onboarding. Dès 249 $/mois.
 
 3 MSP pilotes · rabais fondateur.
@@ -404,7 +404,7 @@ MSP Intelligence IT règle ça.
 ```
 Ce que ça inclut :
 
-✦ 15 agents IA terrain spécialisés
+✦ 23 agents IA terrain spécialisés
 ✦ 120 runbooks validés terrain
 ✦ 90 templates : notes CW, rapports, QBR...
 ✦ 8 modules : NOC, Support, Infra, Sécurité...
@@ -465,7 +465,7 @@ Logiciels · Services informatiques
 
 **Description courte (255 caractères)**
 ```
-Système opérationnel IA pour MSP francophones. 15 agents terrain · 120 runbooks · dès 249 $/mois. Chaque billet : guidé, traçable, facturable.
+Système opérationnel IA pour MSP francophones. 23 agents terrain · 120 runbooks · dès 249 $/mois. Chaque billet : guidé, traçable, facturable.
 ```
 
 **Photo de couverture**
@@ -490,7 +490,7 @@ Texte   : Réserver une démo
 EA|IA développe MSP Intelligence IT — le premier système opérationnel IA
 conçu pour les MSP francophones.
 
-15 agents terrain, 120 runbooks validés, 90 templates et 26 playbooks.
+23 agents terrain, 120 runbooks validés, 90 templates et 26 playbooks.
 Compatible ConnectWise · Hudu · M365 · Azure · Veeam · Fortinet.
 
 Onboarding client : 12 h → 120 min. Conformité facturée : jusqu'à
@@ -515,7 +515,7 @@ https://eriqallain-afk.github.io/msp-preview.html
 
 **Objet :**
 ```
-MSP Intelligence IT — 15 agents IA pour votre équipe terrain
+MSP Intelligence IT — 23 agents IA pour votre équipe terrain
 ```
 
 **Corps :**
