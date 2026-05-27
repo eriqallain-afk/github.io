@@ -80,7 +80,7 @@
 
 - **IT-OnOffBoarder** : onboarding client structuré et accéléré.
 - **IT-ComplianceMaster** : transforme la conformité en service vendable et documenté.
-- **IT-TicketOpsAI** : transforme un billet brut en note technique, discussion client et plan d’action.
+- **IT-TicketOpr** : transforme un billet brut en note technique, discussion client et plan d’action.
 
 ---
 
