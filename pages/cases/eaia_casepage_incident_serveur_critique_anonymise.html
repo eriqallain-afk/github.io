@@ -1195,7 +1195,7 @@ footer {
 ────────────────────────────────────────────────────────────
 
 BILLET : #[ANON]
-DATE : 2025-05-15
+DATE : 2025-02-18
 TECHNICIEN : [À compléter]
 ────────────
 
@@ -1243,7 +1243,7 @@ INTERVENTION TECHNIQUE — TROUBLESHOOTING URGENT
 
 INFORMATIONS GÉNÉRALES
 ────────────────────
-Date         : 2025-05-15
+Date         : 2025-02-18
 Technicien   : [À compléter]
 Client       : client inc.
 Billet CW    : #[ANON]
@@ -1272,12 +1272,12 @@ DIAGNOSTIC / ANALYSE
 
 Observations
 - OS observé : Microsoft Windows Storage Server 2016 Standard
-- Dernier boot observé : 2025-05-15 15:00:33
+- Dernier boot observé : 2025-02-18 15:00:33
 - Pending reboot : CBS=False, Windows Update=False, PendingFileRename=True
 - Espace disque : volumes système et données sans manque d’espace critique
 - Processus les plus visibles au triage : DFSR, SentinelAgentWorker, SentinelAgent, ThreatLockerService
 - Aucun Event Log System concluant n’a permis d’attribuer à lui seul la cause du gel
-- Rapport de tâches SentinelOne : “Agent version change” pour le package 25.2.6.442, initié le 2025-05-11 et complété le 2025-05-15 à 15:02:29, soit environ 2 minutes après le reboot observé
+- Rapport de tâches SentinelOne : “Agent version change” pour le package 25.2.6.442, initié le 2025-02-14 et complété le 2025-02-18 à 15:02:29, soit environ 2 minutes après le reboot observé
 - Corrélation temporelle aussi observée sur un autre serveur du même parc
 
 Cause probable
@@ -1345,15 +1345,15 @@ Contexte
 Constat technique local après retour en ligne
 - OS : Microsoft Windows Storage Server 2016 Standard
 - Version : 10.0.14393
-- Dernier boot observé : 2025-05-15 15:00:33
+- Dernier boot observé : 2025-02-18 15:00:33
 - Pending reboot : CBS=False, Windows Update=False, PendingFileRename=True
 - Processus les plus visibles : DFSR, SentinelAgentWorker, SentinelAgent, ThreatLockerService
 
 Nouveau constat corrélé au rapport de tâches SentinelOne
 - Tâche : Agent version change
 - Package : SentinelOneInstaller_windows_64bit_v25_2_6_442.exe
-- Initiée : 2025-05-11 08:40:59 Montréal
-- Dernière mise à jour : 2025-05-15 15:02:29 Montréal
+- Initiée : 2025-02-14 08:40:59 Montréal
+- Dernière mise à jour : 2025-02-18 15:02:29 Montréal
 - Statut : completed
 - Détail : Upgrade completed
 
@@ -1364,7 +1364,7 @@ Position demandée
 
 Action demandée
 Valider / extraire pour ce serveur la fenêtre suivante :
-- 2025-05-15 12:00 à 15:05 Montréal
+- 2025-02-18 12:00 à 15:05 Montréal
 
 Éléments à cibler
 - agent upgrade start / install phase
@@ -1385,7 +1385,7 @@ Valider / extraire pour ce serveur la fenêtre suivante :
           </div>
           <div class="doc-copy">Synthèse · prête à coller</div>
         </div>
-        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers 25.2.6.442 était active depuis le 2025-05-11 et a complété sur le serveur à 15:02:29, soit immédiatement après le hard reboot observé à 15:00:33.
+        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers 25.2.6.442 était active depuis le 2025-02-14 et a complété sur le serveur à 15:02:29, soit immédiatement après le hard reboot observé à 15:00:33.
 Ceci renforce la corrélation temporelle avec SentinelOne, sans toutefois démontrer que l’agent a causé le gel initial du serveur.
 
 Verdict ajusté
