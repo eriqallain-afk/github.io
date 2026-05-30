@@ -983,7 +983,7 @@ footer {
         </tr>
         <tr>
           <td><strong>Rapport de tâches EDR</strong></td>
-          <td>Une tâche “Agent version change” vers SentinelOne 25.2.6.442 complète à 15:02:29, environ 2 minutes après le reboot</td>
+          <td>Une tâche “Agent version change” vers SentinelOne x.x.x.xx complète à 15:02:29, environ 2 minutes après le reboot</td>
           <td>La corrélation temporelle avec l’upgrade EDR est renforcée</td>
           <td>Dire “plausible”, jamais “confirmé”</td>
         </tr>
@@ -1277,7 +1277,7 @@ Observations
 - Espace disque : volumes système et données sans manque d’espace critique
 - Processus les plus visibles au triage : DFSR, SentinelAgentWorker, SentinelAgent, ThreatLockerService
 - Aucun Event Log System concluant n’a permis d’attribuer à lui seul la cause du gel
-- Rapport de tâches SentinelOne : “Agent version change” pour le package 25.2.6.442, initié le 2025-02-22 et complété le 2025-02-24 à 15:02:29, soit environ 2 minutes après le reboot observé
+- Rapport de tâches SentinelOne : “Agent version change” pour le package x.x.x.xx, initié le 2025-02-22 et complété le 2025-02-24 à 15:02:29, soit environ 2 minutes après le reboot observé
 - Corrélation temporelle aussi observée sur un autre serveur du même parc
 
 Cause probable
@@ -1293,7 +1293,7 @@ Action 2 — Analyse des processus et de l’état général
   Résultat : Présence marquée de DFSR, SentinelAgentWorker, SentinelAgent et ThreatLockerService dans les processus les plus actifs.
 
 Action 3 — Analyse de la corrélation SentinelOne
-  Résultat : Tâche d’upgrade agent SentinelOne 25.2.6.442 confirmée comme complétée immédiatement après le reboot, ce qui renforce la corrélation temporelle sans démontrer la causalité.
+  Résultat : Tâche d’upgrade agent SentinelOne x.x.x.xx confirmée comme complétée immédiatement après le reboot, ce qui renforce la corrélation temporelle sans démontrer la causalité.
 
 Action 4 — Préparation d’une escalade sécurité
   Résultat : Brief interne préparé pour IT-SecurityMaster afin de valider l’historique d’upgrade, l’interopérabilité SentinelOne / ThreatLocker et la pertinence des exclusions existantes.
@@ -1351,7 +1351,7 @@ Constat technique local après retour en ligne
 
 Nouveau constat corrélé au rapport de tâches SentinelOne
 - Tâche : Agent version change
-- Package : SentinelOneInstaller_windows_64bit_v25_2_6_442.exe
+- Package : SentinelOneInstaller_windows_64bit_vx_x_x_xx.exe
 - Initiée : 2025-02-22 08:40:59 Montréal
 - Dernière mise à jour : 2025-02-22 15:02:29 Montréal
 - Statut : completed
@@ -1385,7 +1385,7 @@ Valider / extraire pour ce serveur la fenêtre suivante :
           </div>
           <div class="doc-copy">Synthèse · prête à coller</div>
         </div>
-        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers 25.2.6.442 était active depuis le 2025-02-24 et a complété sur le serveur à 15:02:29, soit immédiatement après le hard reboot observé à 15:00:33.
+        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers x.x.x.xx était active depuis le 2025-02-24 et a complété sur le serveur à 15:02:29, soit immédiatement après le hard reboot observé à 15:00:33.
 Ceci renforce la corrélation temporelle avec SentinelOne, sans toutefois démontrer que l’agent a causé le gel initial du serveur.
 
 Verdict ajusté
