@@ -965,7 +965,7 @@ footer {
         </tr>
         <tr>
           <td><strong>État post-reboot</strong></td>
-          <td>Le dernier boot observé se situe à 10:20:33, après hard reboot</td>
+          <td>Le dernier boot observé se situe à 15:00:33, après hard reboot</td>
           <td>La preuve utile doit être reconstruite à partir de la timeline et de l’état revenu en ligne</td>
           <td>Faire un triage post-incident rigoureux plutôt qu’improviser une cause</td>
         </tr>
@@ -983,7 +983,7 @@ footer {
         </tr>
         <tr>
           <td><strong>Rapport de tâches EDR</strong></td>
-          <td>Une tâche “Agent version change” vers SentinelOne 25.2.6.442 complète à 10:22:29, environ 2 minutes après le reboot</td>
+          <td>Une tâche “Agent version change” vers SentinelOne 25.2.6.442 complète à 15:02:29, environ 2 minutes après le reboot</td>
           <td>La corrélation temporelle avec l’upgrade EDR est renforcée</td>
           <td>Dire “plausible”, jamais “confirmé”</td>
         </tr>
@@ -1214,10 +1214,10 @@ TÂCHE :
 
 ACTIONS :
 ────────────
-• [10:20] Redémarrage supervisé requis pour rétablir l’accès au service et permettre le retour en ligne de l’équipement.
-• [10:38] Validation post-incident de l’état général du serveur, des ressources système et des services essentiels.
-• [10:52] Confirmation du retour de l’outil de gestion à distance et validation du fonctionnement général.
-• [11:15] Analyse complémentaire de l’historique de mise à jour de l’agent de sécurité et préparation d’une escalade interne pour investigation approfondie.
+• [15:00] Redémarrage supervisé requis pour rétablir l’accès au service et permettre le retour en ligne de l’équipement.
+• [15:18] Validation post-incident de l’état général du serveur, des ressources système et des services essentiels.
+• [15:34] Confirmation du retour de l’outil de gestion à distance et validation du fonctionnement général.
+• [15:55] Analyse complémentaire de l’historique de mise à jour de l’agent de sécurité et préparation d’une escalade interne pour investigation approfondie.
 
 RÉSULTAT :
 ────────────
@@ -1272,12 +1272,12 @@ DIAGNOSTIC / ANALYSE
 
 Observations
 - OS observé : Microsoft Windows Storage Server 2016 Standard
-- Dernier boot observé : 2025-05-15 10:20:33
+- Dernier boot observé : 2025-05-15 15:00:33
 - Pending reboot : CBS=False, Windows Update=False, PendingFileRename=True
 - Espace disque : volumes système et données sans manque d’espace critique
 - Processus les plus visibles au triage : DFSR, SentinelAgentWorker, SentinelAgent, ThreatLockerService
 - Aucun Event Log System concluant n’a permis d’attribuer à lui seul la cause du gel
-- Rapport de tâches SentinelOne : “Agent version change” pour le package 25.2.6.442, initié le 2025-05-11 et complété le 2025-05-15 à 10:22:29, soit environ 2 minutes après le reboot observé
+- Rapport de tâches SentinelOne : “Agent version change” pour le package 25.2.6.442, initié le 2025-05-11 et complété le 2025-05-15 à 15:02:29, soit environ 2 minutes après le reboot observé
 - Corrélation temporelle aussi observée sur un autre serveur du même parc
 
 Cause probable
@@ -1345,7 +1345,7 @@ Contexte
 Constat technique local après retour en ligne
 - OS : Microsoft Windows Storage Server 2016 Standard
 - Version : 10.0.14393
-- Dernier boot observé : 2025-05-15 10:20:33
+- Dernier boot observé : 2025-05-15 15:00:33
 - Pending reboot : CBS=False, Windows Update=False, PendingFileRename=True
 - Processus les plus visibles : DFSR, SentinelAgentWorker, SentinelAgent, ThreatLockerService
 
@@ -1353,7 +1353,7 @@ Nouveau constat corrélé au rapport de tâches SentinelOne
 - Tâche : Agent version change
 - Package : SentinelOneInstaller_windows_64bit_v25_2_6_442.exe
 - Initiée : 2025-05-11 08:40:59 Montréal
-- Dernière mise à jour : 2025-05-15 10:22:29 Montréal
+- Dernière mise à jour : 2025-05-15 15:02:29 Montréal
 - Statut : completed
 - Détail : Upgrade completed
 
@@ -1364,7 +1364,7 @@ Position demandée
 
 Action demandée
 Valider / extraire pour ce serveur la fenêtre suivante :
-- 2025-05-15 07:00 à 10:25 Montréal
+- 2025-05-15 12:00 à 15:05 Montréal
 
 Éléments à cibler
 - agent upgrade start / install phase
@@ -1385,7 +1385,7 @@ Valider / extraire pour ce serveur la fenêtre suivante :
           </div>
           <div class="doc-copy">Synthèse · prête à coller</div>
         </div>
-        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers 25.2.6.442 était active depuis le 2025-05-11 et a complété sur le serveur à 10:22:29, soit immédiatement après le hard reboot observé à 10:20:33.
+        <div class="doc-pre">Le rapport de tâches indique qu’une mise à jour agent SentinelOne vers 25.2.6.442 était active depuis le 2025-05-11 et a complété sur le serveur à 15:02:29, soit immédiatement après le hard reboot observé à 15:00:33.
 Ceci renforce la corrélation temporelle avec SentinelOne, sans toutefois démontrer que l’agent a causé le gel initial du serveur.
 
 Verdict ajusté
