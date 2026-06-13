@@ -135,7 +135,7 @@ Le dossier `kit/` est la source des contenus de campagne publics :
 - Respect strict de la charte φ et du logo unifié
 - **0 donnée identifiante** dans les casepages
 - Pages directement publiables — pas de placeholder, pas de lien mort
-- Contact officiel : `eric_allain@outlook.com`
+- Contact officiel : `info@ea-ia.ca`
 
 ---
 
